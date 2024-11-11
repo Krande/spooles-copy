@@ -1,0 +1,16 @@
+[project]
+name = "spooles"
+version = "0.1.0"
+description = "A basic conda build environment"
+channels = ["conda-forge"]
+platforms = ["win-64"]
+
+[dependencies]
+m2w64-sysroot_win-64 = "12*"
+make = "4.4*"
+gcc_win-64 = "13*"
+perl = "*"
+m2-base = "*"
+
+[tasks]
+build = { cmd = ["make CC=x86_64-w64-mingw32-cc AR=x86_64-w64-mingw32-ar lib"], description = "Build the project" }

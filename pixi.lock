@@ -1,0 +1,2158 @@
+version: 5
+environments:
+  default:
+    channels:
+    - url: https://conda.anaconda.org/conda-forge/
+    packages:
+      win-64:
+      - conda: https://conda.anaconda.org/conda-forge/win-64/_openmp_mutex-4.5-2_gnu.conda
+      - conda: https://conda.anaconda.org/conda-forge/win-64/binutils_impl_win-64-2.43-h095e170_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/win-64/binutils_win-64-2.43-hd1c8def_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/win-64/gcc_impl_win-64-13.3.0-h6d572eb_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/win-64/gcc_win-64-13.3.0-h3842d22_5.conda
+      - conda: https://conda.anaconda.org/conda-forge/win-64/gendef-v12.0.0.r1.ggdc42231f0-he1bec0e_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/win-64/ld_impl_win-64-2.43-hae1bf67_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/win-64/libgcc-14.2.0-h1383e82_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/libgcc-devel_win-64-13.3.0-h5200ebd_101.conda
+      - conda: https://conda.anaconda.org/conda-forge/win-64/libgomp-14.2.0-h1383e82_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/win-64/libstdcxx-14.2.0-h904f734_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/win-64/libwinpthread-12.0.0.r4.gg4f2fc60ca-h57928b3_8.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-base-2022.06.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-bash-5.2.015.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-bash-completion-2.11.3-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-brotli-1.1.0.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-bsdtar-3.7.2.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-bzip2-1.0.8.4-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-ca-certificates-20230311.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/win-64/m2-conda-epoch-20230914-0_x86_64.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-coreutils-8.32.5-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-curl-8.2.1.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-dash-0.5.12.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-file-5.45.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-filesystem-2023.02.07.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-findutils-4.9.0.3-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-gawk-5.2.2.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-gcc-libs-11.3.0.4-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-getent-2.18.90.4-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-gettext-0.22.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-gmp-6.3.0.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-gnupg-2.2.41.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-grep-1!3.0.6-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-gzip-1.13.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-heimdal-libs-7.8.0.4-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-inetutils-2.4.2-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-info-7.0.3.3-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-less-643.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libargp-20110921.4-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libasprintf-0.22.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libassuan-2.5.6.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libbz2-1.0.8.4-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libcurl-8.2.1.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libdb-5.3.28.4-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libedit-20221030_3.1.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libexpat-2.5.0.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libffi-3.4.4.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libgcrypt-1.9.4.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libgettextpo-0.22.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libgnutls-3.8.1.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libgpg-error-1.47.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libgpgme-1.22.0.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libhogweed-3.9.1.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libiconv-1.17.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libidn2-2.3.4.2-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libintl-0.22.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libksba-1.6.4.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-liblz4-1.9.4.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-liblzma-5.4.4.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libnettle-3.9.1.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libnghttp2-1.56.0.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libnpth-1.6.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libopenssl-3.1.2.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libp11-kit-0.25.0.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libpcre-8.45.3-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libpcre2_8-10.42.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libpsl-0.21.2.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libreadline-8.2.001.3-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libsqlite-3.42.0.2-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libssh2-1.11.0.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libtasn1-4.19.0.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libunistring-1.1.2-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libutil-linux-2.35.2.4-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libxcrypt-4.4.36.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libxml2-2.9.14.5-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libxslt-1.1.38.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-libzstd-1.5.5.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-mintty-1!3.6.5.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-mpfr-4.2.1.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-msys2-keyring-1!20230703.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-msys2-launcher-1.5.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-msys2-runtime-3.4.9.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-nano-7.2.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-ncurses-6.4.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-nettle-3.9.1.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-openssl-3.1.2.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-p11-kit-0.25.0.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-pinentry-1.2.1.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-rebase-4.5.0.4-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-sed-4.9.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-tar-1.34.3-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-time-1.9.3-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-tzcode-2023c.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-util-linux-2.35.2.4-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-wget-1.21.4.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-which-2.21.4-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-zlib-1.3.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2-zstd-1.5.5.1-hd8ed1ab_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/m2w64-sysroot_win-64-12.0.0.r4.gg4f2fc60ca-h7428d3b_8.conda
+      - conda: https://conda.anaconda.org/conda-forge/win-64/make-4.4.1-h0e40799_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/mingw-w64-ucrt-x86_64-crt-git-12.0.0.r4.gg4f2fc60ca-h7428d3b_8.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/mingw-w64-ucrt-x86_64-headers-git-12.0.0.r4.gg4f2fc60ca-h7428d3b_8.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/mingw-w64-ucrt-x86_64-windows-default-manifest-6.4-he206cdd_7.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/mingw-w64-ucrt-x86_64-winpthreads-git-12.0.0.r4.gg4f2fc60ca-h7428d3b_8.conda
+      - conda: https://conda.anaconda.org/conda-forge/win-64/perl-5.32.1.1-7_h57928b3_strawberry.conda
+      - conda: https://conda.anaconda.org/conda-forge/win-64/ucrt-10.0.22621.0-h57928b3_1.conda
+packages:
+- kind: conda
+  name: _openmp_mutex
+  version: '4.5'
+  build: 2_gnu
+  build_number: 8
+  subdir: win-64
+  url: https://conda.anaconda.org/conda-forge/win-64/_openmp_mutex-4.5-2_gnu.conda
+  sha256: 1a62cd1f215fe0902e7004089693a78347a30ad687781dfda2289cab000e652d
+  md5: 37e16618af5c4851a3f3d66dd0e11141
+  depends:
+  - libgomp >=7.5.0
+  - libwinpthread >=12.0.0.r2.ggc561118da
+  constrains:
+  - openmp_impl 9999
+  - msys2-conda-epoch <0.0a0
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 49468
+  timestamp: 1718213032772
+- kind: conda
+  name: binutils_impl_win-64
+  version: '2.43'
+  build: h095e170_2
+  build_number: 2
+  subdir: win-64
+  url: https://conda.anaconda.org/conda-forge/win-64/binutils_impl_win-64-2.43-h095e170_2.conda
+  sha256: cedd99fa12cab290f377a9d5a25cbfc69ae02f2c8e51deb6fe5684dff23519e3
+  md5: b4b3457460a6a78ec3fdb03c8308497e
+  depends:
+  - ld_impl_win-64 2.43 hae1bf67_2
+  - m2w64-sysroot_win-64 >=12.0.0.r0
+  license: GPL-3.0-only
+  license_family: GPL
+  size: 4977576
+  timestamp: 1729655181032
+- kind: conda
+  name: binutils_win-64
+  version: '2.43'
+  build: hd1c8def_2
+  build_number: 2
+  subdir: win-64
+  url: https://conda.anaconda.org/conda-forge/win-64/binutils_win-64-2.43-hd1c8def_2.conda
+  sha256: 5cdda3d921cad495404f37c4a879e4cf54a4b1920873897cbaf51056edbb8601
+  md5: 59af463eaf04962026e035e10c66fa45
+  depends:
+  - binutils_impl_win-64 2.43 h095e170_2
+  license: GPL-3.0-only
+  license_family: GPL
+  size: 35795
+  timestamp: 1729655212540
+- kind: conda
+  name: gcc_impl_win-64
+  version: 13.3.0
+  build: h6d572eb_1
+  build_number: 1
+  subdir: win-64
+  url: https://conda.anaconda.org/conda-forge/win-64/gcc_impl_win-64-13.3.0-h6d572eb_1.conda
+  sha256: 5143cdb5d568199860d05f7fb82e0d71756c857f4464fc7bab530fcce098dbb8
+  md5: 4e781d53929cac2126104f146c3293fb
+  depends:
+  - binutils_impl_win-64 >=2.40
+  - libgcc >=13.3.0
+  - libgcc-devel_win-64 13.3.0 h5200ebd_101
+  - libgomp >=13.3.0
+  - libstdcxx >=13.3.0
+  - m2w64-sysroot_win-64
+  license: GPL-3.0-only WITH GCC-exception-3.1
+  license_family: GPL
+  size: 51152247
+  timestamp: 1724804806495
+- kind: conda
+  name: gcc_win-64
+  version: 13.3.0
+  build: h3842d22_5
+  build_number: 5
+  subdir: win-64
+  url: https://conda.anaconda.org/conda-forge/win-64/gcc_win-64-13.3.0-h3842d22_5.conda
+  sha256: 024f31d8d3532ba0810a4e2c11e20e927aece4681784e0b9893e8bd968d0f58e
+  md5: d408bc149cf882e3b260911d8d834aa7
+  depends:
+  - binutils_win-64
+  - gcc_impl_win-64 13.3.0.*
+  - gendef
+  - m2w64-sysroot_win-64
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 32077
+  timestamp: 1729283914717
+- kind: conda
+  name: gendef
+  version: v12.0.0.r1.ggdc42231f0
+  build: he1bec0e_1
+  build_number: 1
+  subdir: win-64
+  url: https://conda.anaconda.org/conda-forge/win-64/gendef-v12.0.0.r1.ggdc42231f0-he1bec0e_1.conda
+  sha256: 1c4efe88c067b9c7056ad349ef67d0ffcb8b87615cff8164b7c76683f6ae6e3d
+  md5: a738301b7ff9c74a1ec82655a9dfae8d
+  depends:
+  - libwinpthread >=12.0.0.r2.ggc561118da
+  - ucrt >=10.0.20348.0
+  license: MIT AND GPL-3.0-or-later
+  license_family: GPL
+  size: 85962
+  timestamp: 1718985997817
+- kind: conda
+  name: ld_impl_win-64
+  version: '2.43'
+  build: hae1bf67_2
+  build_number: 2
+  subdir: win-64
+  url: https://conda.anaconda.org/conda-forge/win-64/ld_impl_win-64-2.43-hae1bf67_2.conda
+  sha256: d9c31a15866d51b3ca512e27b3425a46ff4e9360fa59e342f84d492aaf42153e
+  md5: 0bf993f072d79d8f29cde04f81dae3be
+  constrains:
+  - binutils_impl_win-64 2.43
+  license: GPL-3.0-only
+  license_family: GPL
+  size: 761770
+  timestamp: 1729655165667
+- kind: conda
+  name: libgcc
+  version: 14.2.0
+  build: h1383e82_1
+  build_number: 1
+  subdir: win-64
+  url: https://conda.anaconda.org/conda-forge/win-64/libgcc-14.2.0-h1383e82_1.conda
+  sha256: ef840e797714440bb10b69446d815966fff41fdac79f79c4e19c475d81cd375d
+  md5: 75fdd34824997a0f9950a703b15d8ac5
+  depends:
+  - _openmp_mutex >=4.5
+  - libwinpthread >=12.0.0.r4.gg4f2fc60ca
+  constrains:
+  - libgcc-ng ==14.2.0=*_1
+  - libgomp 14.2.0 h1383e82_1
+  - msys2-conda-epoch <0.0a0
+  license: GPL-3.0-only WITH GCC-exception-3.1
+  license_family: GPL
+  size: 666386
+  timestamp: 1729089506769
+- kind: conda
+  name: libgcc-devel_win-64
+  version: 13.3.0
+  build: h5200ebd_101
+  build_number: 101
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/libgcc-devel_win-64-13.3.0-h5200ebd_101.conda
+  sha256: 7fe74ee08343c400dfb2939fe3bacdfec708c5f62e94fb7b8b2f43f12221f4a3
+  md5: 11ad9a7029f40b127541924c3fea8634
+  depends:
+  - __win
+  license: GPL-3.0-only WITH GCC-exception-3.1
+  license_family: GPL
+  size: 2070359
+  timestamp: 1724804659098
+- kind: conda
+  name: libgomp
+  version: 14.2.0
+  build: h1383e82_1
+  build_number: 1
+  subdir: win-64
+  url: https://conda.anaconda.org/conda-forge/win-64/libgomp-14.2.0-h1383e82_1.conda
+  sha256: d8739b834608f35775209b032f0c2be752ef187863c7ec847afcebe2f681be4e
+  md5: 9e2d4d1214df6f21cba12f6eff4972f9
+  depends:
+  - libwinpthread >=12.0.0.r4.gg4f2fc60ca
+  constrains:
+  - msys2-conda-epoch <0.0a0
+  license: GPL-3.0-only WITH GCC-exception-3.1
+  license_family: GPL
+  size: 524249
+  timestamp: 1729089441747
+- kind: conda
+  name: libstdcxx
+  version: 14.2.0
+  build: h904f734_1
+  build_number: 1
+  subdir: win-64
+  url: https://conda.anaconda.org/conda-forge/win-64/libstdcxx-14.2.0-h904f734_1.conda
+  sha256: 2f8bc873e65d31e6d856c67ffa75cc47927482d574b0dc6de62cbaec08b42905
+  md5: 2aab7962312970e6cdc998fd66f283a6
+  depends:
+  - libgcc 14.2.0 h1383e82_1
+  - libwinpthread >=12.0.0.r4.gg4f2fc60ca
+  license: GPL-3.0-only WITH GCC-exception-3.1
+  license_family: GPL
+  size: 4467187
+  timestamp: 1729089533501
+- kind: conda
+  name: libwinpthread
+  version: 12.0.0.r4.gg4f2fc60ca
+  build: h57928b3_8
+  build_number: 8
+  subdir: win-64
+  url: https://conda.anaconda.org/conda-forge/win-64/libwinpthread-12.0.0.r4.gg4f2fc60ca-h57928b3_8.conda
+  sha256: 6d5e158813ab8d553fbb0fedd0abe7bf92970b0be3a9ddf12da0f6cbad78f506
+  md5: 03cccbba200ee0523bde1f3dad60b1f3
+  depends:
+  - ucrt
+  constrains:
+  - pthreads-win32 <0.0a0
+  - msys2-conda-epoch <0.0a0
+  license: MIT AND BSD-3-Clause-Clear
+  size: 35433
+  timestamp: 1724681489463
+- kind: conda
+  name: m2-base
+  version: 2022.06.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-base-2022.06.1-hd8ed1ab_4.conda
+  sha256: 9d76aef6523ce25390fc20673167370c3b29d0fa55b6b9276ebb732584b2f4dc
+  md5: 939bf2614909fcb61a95012b0e6605da
+  depends:
+  - m2-bash
+  - m2-bash-completion
+  - m2-bsdtar
+  - m2-bzip2
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-coreutils
+  - m2-curl
+  - m2-dash
+  - m2-file
+  - m2-filesystem
+  - m2-findutils
+  - m2-gawk
+  - m2-getent
+  - m2-grep
+  - m2-gzip
+  - m2-inetutils
+  - m2-info
+  - m2-less
+  - m2-mintty
+  - m2-msys2-keyring
+  - m2-msys2-launcher
+  - m2-msys2-runtime
+  - m2-nano
+  - m2-rebase
+  - m2-sed
+  - m2-tar
+  - m2-time
+  - m2-tzcode
+  - m2-util-linux
+  - m2-wget
+  - m2-which
+  - m2-zstd
+  license: GPL
+  size: 35768
+  timestamp: 1719986743414
+- kind: conda
+  name: m2-bash
+  version: 5.2.015.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-bash-5.2.015.1-hd8ed1ab_4.conda
+  sha256: 308d56ed832c89495a0739ef52a29bc6a3c00b2dde127b3d5f9560766aa1a0ae
+  md5: af0428411c3a3124ce10576a4d43c6db
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-filesystem
+  - m2-msys2-runtime
+  license: GPL
+  size: 2534127
+  timestamp: 1719980547577
+- kind: conda
+  name: m2-bash-completion
+  version: 2.11.3
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-bash-completion-2.11.3-hd8ed1ab_4.conda
+  sha256: ddf29519664e7fbe28211d09eb51d17eebc61f02fe578c6ffa77686cd64fac24
+  md5: 50fa1ccc72dbd8581ea3598fe4c2a0e6
+  depends:
+  - m2-bash
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-msys2-runtime
+  license: GPL
+  size: 223472
+  timestamp: 1719981239128
+- kind: conda
+  name: m2-brotli
+  version: 1.1.0.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-brotli-1.1.0.1-hd8ed1ab_4.conda
+  sha256: 0d7aeecaff5e2bfd5722937c5532e0f5aa19a2111cfcdda187d3ce71b19e8dd1
+  md5: 9db450fc433bf2c592ec66ce68bf1add
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gcc-libs
+  - m2-msys2-runtime
+  license: MIT
+  license_family: MIT
+  size: 387571
+  timestamp: 1719980580560
+- kind: conda
+  name: m2-bsdtar
+  version: 3.7.2.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-bsdtar-3.7.2.1-hd8ed1ab_4.conda
+  sha256: 1338f2e396dc52f95275c6aef8daa7ad282a9753bc4f7218c965a19d5f125f18
+  md5: eade37fce8d4a7ef4d94063228d34fec
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gcc-libs
+  - m2-libbz2
+  - m2-libexpat
+  - m2-libiconv
+  - m2-liblz4
+  - m2-liblzma
+  - m2-libopenssl
+  - m2-libzstd
+  - m2-msys2-runtime
+  - m2-zlib
+  license: BSD
+  size: 365987
+  timestamp: 1719983217529
+- kind: conda
+  name: m2-bzip2
+  version: 1.0.8.4
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-bzip2-1.0.8.4-hd8ed1ab_4.conda
+  sha256: 411ea8400b79d4503bd68538250a6d813f996a12127453bacd085b0d174062e5
+  md5: 86c7b2941b103ee4de1b6ab16ec826c7
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-libbz2
+  - m2-msys2-runtime
+  license: custom
+  size: 90969
+  timestamp: 1719981270561
+- kind: conda
+  name: m2-ca-certificates
+  version: '20230311.1'
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-ca-certificates-20230311.1-hd8ed1ab_4.conda
+  sha256: f5a25d7e069780632a188043ab4529e99978a1d2e83d4e94976f9c81ce81a2a1
+  md5: a1838422655132abccc715eb9e283dfe
+  depends:
+  - m2-bash
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-coreutils
+  - m2-findutils
+  - m2-msys2-runtime
+  - m2-openssl
+  - m2-p11-kit
+  - m2-sed
+  license: MPL
+  size: 397860
+  timestamp: 1719985702998
+- kind: conda
+  name: m2-conda-epoch
+  version: '20230914'
+  build: 0_x86_64
+  subdir: win-64
+  url: https://conda.anaconda.org/conda-forge/win-64/m2-conda-epoch-20230914-0_x86_64.conda
+  sha256: 5514efb349d06a8dfe7966b64a3076efad461934e35da9e84c0693a36097fe77
+  md5: e2a0da44f380c05e8d1f897ed3ec3ce0
+  constrains:
+  - msys2-conda-epoch <0.0a0
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 6961
+  timestamp: 1696161055254
+- kind: conda
+  name: m2-coreutils
+  version: 8.32.5
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-coreutils-8.32.5-hd8ed1ab_4.conda
+  sha256: e55624270e998cffdd45b85859db3376c6f4cb48804425a7fb1c9ead12084c4c
+  md5: eba19637e406614e7f992fe12a4b2dfb
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gmp
+  - m2-libiconv
+  - m2-libintl
+  - m2-msys2-runtime
+  license: GPL3
+  size: 3603925
+  timestamp: 1719981953529
+- kind: conda
+  name: m2-curl
+  version: 8.2.1.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-curl-8.2.1.1-hd8ed1ab_4.conda
+  sha256: 7fa389fe04aea63f3f726cddb448fd6bca573be5c2dde03465daf574d6402cab
+  md5: 4fc9b466ca735b3421f3bb326e32b977
+  depends:
+  - m2-ca-certificates
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-libcurl
+  - m2-libnghttp2
+  - m2-libpsl
+  - m2-libunistring
+  - m2-msys2-runtime
+  - m2-openssl
+  - m2-zlib
+  license: MIT
+  license_family: MIT
+  size: 902855
+  timestamp: 1719986266886
+- kind: conda
+  name: m2-dash
+  version: 0.5.12.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-dash-0.5.12.1-hd8ed1ab_4.conda
+  sha256: 449f8fee42a2dbe234fbdeea47352b1e3b3a25f73eaefcb6a82e3363338f93b7
+  md5: bea168b05ed6301140d5f50e89161b15
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-filesystem
+  - m2-grep
+  - m2-msys2-runtime
+  - m2-sed
+  license: BSD
+  size: 110802
+  timestamp: 1719982695238
+- kind: conda
+  name: m2-file
+  version: 5.45.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-file-5.45.1-hd8ed1ab_4.conda
+  sha256: 1ada77dbd454b7628e4289fe225b3ec49d86e0f4c23202e74a2eb6963bc6e671
+  md5: 1c0ce06060792911315da9779228f0f2
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gcc-libs
+  - m2-libbz2
+  - m2-liblzma
+  - m2-libzstd
+  - m2-msys2-runtime
+  - m2-zlib
+  license: custom
+  size: 447958
+  timestamp: 1719983249243
+- kind: conda
+  name: m2-filesystem
+  version: 2023.02.07.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-filesystem-2023.02.07.1-hd8ed1ab_4.conda
+  sha256: ceee00fe76c4af625640fae7af916afe0f81681eafbd31a4c7134a09c2e1eff5
+  md5: 68974d50513664baaf3309b10bfd26d4
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-msys2-runtime
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 137580
+  timestamp: 1719980156507
+- kind: conda
+  name: m2-findutils
+  version: 4.9.0.3
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-findutils-4.9.0.3-hd8ed1ab_4.conda
+  sha256: dbe6545757b0cf9c6791576309db73572af86191f140047a202a1979441e8dbc
+  md5: 284c24bfb744ed4f2e9ba48f816584d2
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-libiconv
+  - m2-libintl
+  - m2-msys2-runtime
+  license: GPL3
+  size: 530924
+  timestamp: 1719982024099
+- kind: conda
+  name: m2-gawk
+  version: 5.2.2.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-gawk-5.2.2.1-hd8ed1ab_4.conda
+  sha256: 7f56dc981660609f0148db55a767e2bc70ec43d1897ebb49a45e7f82a7f71963
+  md5: ec39600defe6c21b148a08ff1dd7b2eb
+  depends:
+  - m2-bash
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-libintl
+  - m2-libreadline
+  - m2-mpfr
+  - m2-msys2-runtime
+  license: GPL
+  size: 1338780
+  timestamp: 1719982078026
+- kind: conda
+  name: m2-gcc-libs
+  version: 11.3.0.4
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-gcc-libs-11.3.0.4-hd8ed1ab_4.conda
+  sha256: 9e13635fd59f1c6a47d745f3480f8b8a27056bcf05074f45efe59f047c42ed89
+  md5: fb2de7ae15bf1c88d4dd81fafbf20e02
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-msys2-runtime
+  license: GPL
+  size: 1607607
+  timestamp: 1719980188298
+- kind: conda
+  name: m2-getent
+  version: 2.18.90.4
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-getent-2.18.90.4-hd8ed1ab_4.conda
+  sha256: a81dce5ae193a5bdadfe067e13574d708de39f49e01df0c086ecca771a930f41
+  md5: 5a924227f70052d4c54cefcbf02a556d
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-libargp
+  - m2-msys2-runtime
+  license: LGPL
+  size: 45354
+  timestamp: 1719980612640
+- kind: conda
+  name: m2-gettext
+  version: 0.22.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-gettext-0.22.1-hd8ed1ab_4.conda
+  sha256: d032c63d4af9366377c29591d95c2f96f8eee311168103d38140231770f8826a
+  md5: 2b3a4b2e660009881ea544541048ab25
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-libasprintf
+  - m2-libgettextpo
+  - m2-libintl
+  - m2-msys2-runtime
+  license: GPL
+  size: 1893820
+  timestamp: 1719982112051
+- kind: conda
+  name: m2-gmp
+  version: 6.3.0.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-gmp-6.3.0.1-hd8ed1ab_4.conda
+  sha256: 468f8ffa090987d5429f5daee6cd17f69fe54c049b3386ca18de016c05e9daeb
+  md5: 31531ea1261dda944fcdb78febf95b65
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-msys2-runtime
+  license: LGPL3
+  size: 429723
+  timestamp: 1719980219988
+- kind: conda
+  name: m2-gnupg
+  version: 2.2.41.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-gnupg-2.2.41.1-hd8ed1ab_4.conda
+  sha256: 53894853f1807a80131758affc5410a9890e1dcaec1f63737c994e136b2a9d4d
+  md5: 26fc74e7a9fcfb9394251be5ecc608a5
+  depends:
+  - m2-bzip2
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-libassuan
+  - m2-libbz2
+  - m2-libcurl
+  - m2-libgcrypt
+  - m2-libgnutls
+  - m2-libgpg-error
+  - m2-libiconv
+  - m2-libintl
+  - m2-libksba
+  - m2-libnpth
+  - m2-libreadline
+  - m2-libsqlite
+  - m2-msys2-runtime
+  - m2-nettle
+  - m2-pinentry
+  - m2-zlib
+  license: GPL
+  size: 2342518
+  timestamp: 1719986331853
+- kind: conda
+  name: m2-grep
+  version: 1!3.0.6
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-grep-1!3.0.6-hd8ed1ab_4.conda
+  sha256: 798e024c969bc1aca0c7f33b432842544484703699008f0c1f38cc665d59eda7
+  md5: 9dbb4e77a4272d6dfc020224e0864125
+  depends:
+  - m2-bash
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-libiconv
+  - m2-libintl
+  - m2-libpcre
+  - m2-msys2-runtime
+  license: GPL3
+  size: 280566
+  timestamp: 1719982145122
+- kind: conda
+  name: m2-gzip
+  version: 1.13.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-gzip-1.13.1-hd8ed1ab_4.conda
+  sha256: 1f1bf3b50aa363ccc2b0471244d0d2680a85c106709c551d3e5b07b106cf7e0c
+  md5: a8cb523ec566523f138d1b8121a4d457
+  depends:
+  - m2-bash
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-less
+  - m2-msys2-runtime
+  license: GPL3
+  size: 125907
+  timestamp: 1719982196251
+- kind: conda
+  name: m2-heimdal-libs
+  version: 7.8.0.4
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-heimdal-libs-7.8.0.4-hd8ed1ab_4.conda
+  sha256: abb9cd7673e1e6bc019e82b030d4c31744d93160fcc4de99bd3f2163923d97e8
+  md5: f387cf261846cf8033fb4f0db5f0ddde
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-libdb
+  - m2-libedit
+  - m2-libopenssl
+  - m2-libsqlite
+  - m2-libxcrypt
+  - m2-msys2-runtime
+  license: custom
+  size: 884747
+  timestamp: 1719982250424
+- kind: conda
+  name: m2-inetutils
+  version: 2.4.2
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-inetutils-2.4.2-hd8ed1ab_4.conda
+  sha256: d0a8453a1829e106aecaa4420121a22a0ba1d83456af737be7b4715c1f9d5e58
+  md5: 9ccfb030bb14f5fc84ed04d561f4de0a
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gcc-libs
+  - m2-libintl
+  - m2-libreadline
+  - m2-msys2-runtime
+  - m2-ncurses
+  license: GPL-3.0-or-later
+  license_family: GPL
+  size: 212218
+  timestamp: 1719982305853
+- kind: conda
+  name: m2-info
+  version: 7.0.3.3
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-info-7.0.3.3-hd8ed1ab_4.conda
+  sha256: da5824758f262f26bd4bb434fa0e6508ad3a13ef3452575aa442040759f9b4e8
+  md5: d70a0073d3a0e9bad515636d0256ea84
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gzip
+  - m2-libintl
+  - m2-libxcrypt
+  - m2-msys2-runtime
+  - m2-ncurses
+  license: GPL-3.0-or-later
+  license_family: GPL
+  size: 214914
+  timestamp: 1719982865927
+- kind: conda
+  name: m2-less
+  version: '643.1'
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-less-643.1-hd8ed1ab_4.conda
+  sha256: 758bda01d7867ccb9f98913d33bc3dbed0480d6c0c40bcb903fbd2b0bfe0263c
+  md5: 919ad83fc0be788860d8f4a2d2b0cf98
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-libpcre2_8
+  - m2-msys2-runtime
+  - m2-ncurses
+  license: GPL3
+  size: 157632
+  timestamp: 1719981371668
+- kind: conda
+  name: m2-libargp
+  version: '20110921.4'
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libargp-20110921.4-hd8ed1ab_4.conda
+  sha256: 324c5ed2ca13c6d0203f4d3b095c32b1771dbec93729d6ae2df7fa10032962f4
+  md5: d758d4ab94db44e1acd5a4b7221bbc6a
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-msys2-runtime
+  license: GPL
+  size: 69707
+  timestamp: 1719980249535
+- kind: conda
+  name: m2-libasprintf
+  version: 0.22.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libasprintf-0.22.1-hd8ed1ab_4.conda
+  sha256: 91b16a5470c77fe597c240625a741488fb20d5485ede3fc1d112398f070da45c
+  md5: db27478723924d26ae48f4c23ad5ce40
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gcc-libs
+  - m2-msys2-runtime
+  license: GPL
+  size: 39259
+  timestamp: 1719980642561
+- kind: conda
+  name: m2-libassuan
+  version: 2.5.6.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libassuan-2.5.6.1-hd8ed1ab_4.conda
+  sha256: 4f21a0d7b4ff280c3a1717cc5131036d47f6015ea32bab8e8bd6d733ffc262be
+  md5: 774b827e2ab31c87206ecd259fd9c435
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gcc-libs
+  - m2-libgpg-error
+  - m2-msys2-runtime
+  license: GPL
+  size: 122542
+  timestamp: 1719982899982
+- kind: conda
+  name: m2-libbz2
+  version: 1.0.8.4
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libbz2-1.0.8.4-hd8ed1ab_4.conda
+  sha256: e522f67925fb2483dfa723e85f6a7f44504aca76061f203d9bba7fcd7cbeeeb5
+  md5: 58036bfbd52fdca6adc81d226fc97656
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gcc-libs
+  - m2-msys2-runtime
+  license: custom
+  size: 63674
+  timestamp: 1719980672107
+- kind: conda
+  name: m2-libcurl
+  version: 8.2.1.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libcurl-8.2.1.1-hd8ed1ab_4.conda
+  sha256: e3b9983c9743896c260eb0c57f6b4c758523590f9ed6924be4c2813404770e3c
+  md5: ab80464a71b8dc47a2fce24e1fe724d0
+  depends:
+  - m2-brotli
+  - m2-ca-certificates
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-heimdal-libs
+  - m2-libidn2
+  - m2-libnghttp2
+  - m2-libpsl
+  - m2-libssh2
+  - m2-libunistring
+  - m2-libzstd
+  - m2-msys2-runtime
+  - m2-openssl
+  - m2-zlib
+  license: MIT
+  license_family: MIT
+  size: 308833
+  timestamp: 1719986207747
+- kind: conda
+  name: m2-libdb
+  version: 5.3.28.4
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libdb-5.3.28.4-hd8ed1ab_4.conda
+  sha256: 8d649be2aa1724330c7ed1b5d87079a0ee07a8a06f2158b6fe995b2fcce40841
+  md5: 1a3d70081a9896db61ee72ff39a22406
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gcc-libs
+  - m2-msys2-runtime
+  license: custom
+  size: 749449
+  timestamp: 1719980702785
+- kind: conda
+  name: m2-libedit
+  version: 20221030_3.1.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libedit-20221030_3.1.1-hd8ed1ab_4.conda
+  sha256: d3c88e28eb8210392c4ac12f8140e31cf9af321255da74b576b77405c84f055e
+  md5: 5ace2c02280bcf2c9abd9e739e005399
+  depends:
+  - m2-bash
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-msys2-runtime
+  - m2-ncurses
+  license: BSD
+  size: 128548
+  timestamp: 1719981429
+- kind: conda
+  name: m2-libexpat
+  version: 2.5.0.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libexpat-2.5.0.1-hd8ed1ab_4.conda
+  sha256: 7235eeda8c56d1b1732c7efa87f64ed5495afd66f7dd4474848393251dd12035
+  md5: cf07d6bc4f1956c7f63dbceb78982693
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gcc-libs
+  - m2-msys2-runtime
+  license: MIT
+  license_family: MIT
+  size: 97093
+  timestamp: 1719980733376
+- kind: conda
+  name: m2-libffi
+  version: 3.4.4.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libffi-3.4.4.1-hd8ed1ab_4.conda
+  sha256: 127e6de929619953c3cf26cb531ecf196510029ea0434d49022239812304e771
+  md5: 338df8c075ea98cb15f624afac1d16ca
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-msys2-runtime
+  license: MIT
+  license_family: MIT
+  size: 63884
+  timestamp: 1719980308612
+- kind: conda
+  name: m2-libgcrypt
+  version: 1.9.4.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libgcrypt-1.9.4.1-hd8ed1ab_4.conda
+  sha256: aeaf81e63381273263b752d3ed600d7a8d09390e7bdbf5a27ef3e859b476e1e9
+  md5: 7989d2e3bd7fbe5fac8e5a5435afff4f
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-libgpg-error
+  - m2-msys2-runtime
+  license: LGPL
+  size: 501700
+  timestamp: 1719982931375
+- kind: conda
+  name: m2-libgettextpo
+  version: 0.22.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libgettextpo-0.22.1-hd8ed1ab_4.conda
+  sha256: 9a2c00a37881136509f16efa133e0b9b0db0b8405af63180b84fd47a8a267439
+  md5: 04032274b9cd3a32286bf128abb94cdb
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gcc-libs
+  - m2-msys2-runtime
+  license: GPL
+  size: 159891
+  timestamp: 1719980763203
+- kind: conda
+  name: m2-libgnutls
+  version: 3.8.1.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libgnutls-3.8.1.1-hd8ed1ab_4.conda
+  sha256: d7c0b1ccab6cbcd754b3b645eb0907a90efd5970b64f7a06a880242db66eb4f1
+  md5: b39fb6898a7eb65fa83b27cd7ab94848
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gcc-libs
+  - m2-gmp
+  - m2-libiconv
+  - m2-libidn2
+  - m2-libintl
+  - m2-libnettle
+  - m2-libp11-kit
+  - m2-libtasn1
+  - m2-msys2-runtime
+  - m2-zlib
+  license: GPL-3.0-or-later
+  license_family: GPL
+  size: 1464006
+  timestamp: 1719985268995
+- kind: conda
+  name: m2-libgpg-error
+  version: 1.47.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libgpg-error-1.47.1-hd8ed1ab_4.conda
+  sha256: eb8098906fa57de78745704862755fae398ea485c785a2ca8cbb94cfd0e33eb3
+  md5: c4025da53ab58648eb8dbaf4f52b2ecf
+  depends:
+  - m2-bash
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-libiconv
+  - m2-libintl
+  - m2-msys2-runtime
+  license: LGPL-2.1-or-later
+  size: 225596
+  timestamp: 1719982392334
+- kind: conda
+  name: m2-libgpgme
+  version: 1.22.0.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libgpgme-1.22.0.1-hd8ed1ab_4.conda
+  sha256: 792e1dcba8814836576822875bfd240394898f48cb311900afaa89c204392fb9
+  md5: bbc69569c2cd6383a901f4fea1aba636
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gnupg
+  - m2-libassuan
+  - m2-libgpg-error
+  - m2-msys2-runtime
+  license: LGPL
+  size: 405288
+  timestamp: 1719986614447
+- kind: conda
+  name: m2-libhogweed
+  version: 3.9.1.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libhogweed-3.9.1.1-hd8ed1ab_4.conda
+  sha256: 06acff30dbbdee5c1c262ff3c469e05e87b7e2ee9a147ad23fdd50fea94a6ea9
+  md5: 38c8be8f603b1df1534e3762445cdebc
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gmp
+  - m2-msys2-runtime
+  license: GPL-2.0-or-later OR LGPL-3.0-or-later
+  size: 219558
+  timestamp: 1719980793154
+- kind: conda
+  name: m2-libiconv
+  version: 1.17.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libiconv-1.17.1-hd8ed1ab_4.conda
+  sha256: 200614aefa5081024de549363b75f2d4464f28d4703743c96727c006e5b74c19
+  md5: b5b37490ccf67ba78255204eed643f97
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gcc-libs
+  - m2-msys2-runtime
+  license: LGPL
+  size: 749705
+  timestamp: 1719980823286
+- kind: conda
+  name: m2-libidn2
+  version: 2.3.4.2
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libidn2-2.3.4.2-hd8ed1ab_4.conda
+  sha256: 764e550d61876748b04d65e63d2426997cd8d7c9141a2f04c066e202748e511b
+  md5: 608266d12301832ab17db544eb8ee20f
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-libintl
+  - m2-libunistring
+  - m2-msys2-runtime
+  license: GPL3
+  size: 181826
+  timestamp: 1719982423168
+- kind: conda
+  name: m2-libintl
+  version: 0.22.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libintl-0.22.1-hd8ed1ab_4.conda
+  sha256: e02146ea83aa2242deb8cabe30086e60a82b1573fb404f81d022723f90fce0f6
+  md5: 94492e98e4e29278da25334342beb3c1
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gcc-libs
+  - m2-libiconv
+  - m2-msys2-runtime
+  license: GPL
+  size: 82884
+  timestamp: 1719981493174
+- kind: conda
+  name: m2-libksba
+  version: 1.6.4.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libksba-1.6.4.1-hd8ed1ab_4.conda
+  sha256: fc93ac52b67e924d28ca150ce82e07f42bf65a1d1289089d2f522ce104558616
+  md5: 1a1db9ed2669e960fb3353e554a79ba8
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gcc-libs
+  - m2-libgpg-error
+  - m2-msys2-runtime
+  license: LGPL-3.0-or-later OR GPL-2.0-or-later
+  size: 162174
+  timestamp: 1719982962544
+- kind: conda
+  name: m2-liblz4
+  version: 1.9.4.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-liblz4-1.9.4.1-hd8ed1ab_4.conda
+  sha256: 2251bc1971b38c843b69a67e458ef04de49650476296a4f2675da754b657a56c
+  md5: a832ccea1a074b1d8b0a27c53b206f35
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gcc-libs
+  - m2-msys2-runtime
+  license: LGPL
+  size: 93648
+  timestamp: 1719980853366
+- kind: conda
+  name: m2-liblzma
+  version: 5.4.4.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-liblzma-5.4.4.1-hd8ed1ab_4.conda
+  sha256: 567376f9f00048f9a226fb3c284020d424edd9fa5347376a1e1e7f7672dbf9e5
+  md5: 546172b9cdb55f6cea35658d18b378e2
+  depends:
+  - m2-bash
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gettext
+  - m2-libiconv
+  - m2-msys2-runtime
+  license: GPL
+  size: 120520
+  timestamp: 1719982994358
+- kind: conda
+  name: m2-libnettle
+  version: 3.9.1.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libnettle-3.9.1.1-hd8ed1ab_4.conda
+  sha256: 7b9d0edfb46a1cafe9902abd7c15b79f0e089a14718d3f62eb3016da4749dbd1
+  md5: f19221d0adf6bdfe88411b896aa87ad5
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-libhogweed
+  - m2-msys2-runtime
+  license: GPL-2.0-or-later OR LGPL-3.0-or-later
+  size: 172114
+  timestamp: 1719981522950
+- kind: conda
+  name: m2-libnghttp2
+  version: 1.56.0.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libnghttp2-1.56.0.1-hd8ed1ab_4.conda
+  sha256: 7328aa8f24931075e374e37d4de62088fbf9dfe3d09b31b4379b842328466179
+  md5: dc257b3a3339956a2eb1c94a175e45b4
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gcc-libs
+  - m2-msys2-runtime
+  license: MIT
+  license_family: MIT
+  size: 100980
+  timestamp: 1719980885274
+- kind: conda
+  name: m2-libnpth
+  version: 1.6.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libnpth-1.6.1-hd8ed1ab_4.conda
+  sha256: bae5d4658da526d6e8a7bcd81c6b4817d316b4639ec46d137ee154bdbb9bdb9f
+  md5: 263c2d1801633e068b42ea0edd99e894
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gcc-libs
+  - m2-msys2-runtime
+  license: LGPL
+  size: 40067
+  timestamp: 1719980914897
+- kind: conda
+  name: m2-libopenssl
+  version: 3.1.2.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libopenssl-3.1.2.1-hd8ed1ab_4.conda
+  sha256: 79990ae22a43a7a362a700ade5cc160bfcecc2610cab91679dd48c6885e69e96
+  md5: e6ca0407e15016abb5f686d4d5ac7445
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-msys2-runtime
+  license: Apache-2.0
+  license_family: APACHE
+  size: 1714602
+  timestamp: 1719980371408
+- kind: conda
+  name: m2-libp11-kit
+  version: 0.25.0.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libp11-kit-0.25.0.1-hd8ed1ab_4.conda
+  sha256: 73e5dedeb2b2edc276077e560753277b98cf56351c50e00aaccaf69ea2082403
+  md5: e7f61b50dac3554e1fcc8784cc80d9cc
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-libffi
+  - m2-libintl
+  - m2-libtasn1
+  - m2-msys2-runtime
+  license: BSD
+  size: 269231
+  timestamp: 1719984045135
+- kind: conda
+  name: m2-libpcre
+  version: 8.45.3
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libpcre-8.45.3-hd8ed1ab_4.conda
+  sha256: 0b7bb01eedf947cf825643d51a4ee6932f944ba0ed6b059bd2699a3bb91a1549
+  md5: d3e48c8d1c0ef243cda1cfeb8aea7b48
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gcc-libs
+  - m2-msys2-runtime
+  license: BSD
+  size: 127841
+  timestamp: 1719980944405
+- kind: conda
+  name: m2-libpcre2_8
+  version: 10.42.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libpcre2_8-10.42.1-hd8ed1ab_4.conda
+  sha256: 95868715fb1f7dc9c6f42c68929e6c71e37825e3edf67fca0bc853aaccec3f71
+  md5: 6864fe7daf943921e5e1c6ec551d5e1e
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gcc-libs
+  - m2-msys2-runtime
+  license: BSD
+  size: 160791
+  timestamp: 1719981033688
+- kind: conda
+  name: m2-libpsl
+  version: 0.21.2.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libpsl-0.21.2.1-hd8ed1ab_4.conda
+  sha256: cc652f130ba892adcef3e999e760609440f2f130258afd6f2b9bdc39d6446f75
+  md5: bc3370537beba63bbc3ecd2755d2f71f
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-libidn2
+  - m2-libunistring
+  - m2-libxslt
+  - m2-msys2-runtime
+  license: MIT
+  license_family: MIT
+  size: 104265
+  timestamp: 1719985325452
+- kind: conda
+  name: m2-libreadline
+  version: 8.2.001.3
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libreadline-8.2.001.3-hd8ed1ab_4.conda
+  sha256: e5482a21ae766583aadac6eb33f46bc5495d46ccba5117a73d2f51bb51ab64d0
+  md5: 5c23dc9aa539953787f83e737cf037a7
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-msys2-runtime
+  - m2-ncurses
+  license: GPL
+  size: 334186
+  timestamp: 1719981604513
+- kind: conda
+  name: m2-libsqlite
+  version: 3.42.0.2
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libsqlite-3.42.0.2-hd8ed1ab_4.conda
+  sha256: 27afe1095ff49bcff721f03e698dcea2f1156cefc2f6e5bbe662c4defe2ea052
+  md5: 63d4308fe1ae67786190d071d8290eaf
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-msys2-runtime
+  license: PublicDomain
+  size: 696742
+  timestamp: 1719980403111
+- kind: conda
+  name: m2-libssh2
+  version: 1.11.0.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libssh2-1.11.0.1-hd8ed1ab_4.conda
+  sha256: 10f24ebc0a6ff1d4fce3be7f153cc416f17483bee01d9adceec882c0c90418d4
+  md5: a991bafd3c2d5740b559779e1ccedbe1
+  depends:
+  - m2-ca-certificates
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-msys2-runtime
+  - m2-openssl
+  - m2-zlib
+  license: BSD
+  size: 244675
+  timestamp: 1719986093805
+- kind: conda
+  name: m2-libtasn1
+  version: 4.19.0.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libtasn1-4.19.0.1-hd8ed1ab_4.conda
+  sha256: f2134769bc4a0826b850f77027e28e15567124dce6cea8a4ac1b0b1717df80d0
+  md5: dd4c5b247ec026c77eba8dfddf051239
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-info
+  - m2-msys2-runtime
+  license: GPL3
+  size: 132232
+  timestamp: 1719983304345
+- kind: conda
+  name: m2-libunistring
+  version: 1.1.2
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libunistring-1.1.2-hd8ed1ab_4.conda
+  sha256: 3e478ef749831ff432ab56e72c6e6b56ddc248361d7fb83a96a17b7a412583f4
+  md5: 778daf6657127e03d75fe491d2e650fa
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-libiconv
+  - m2-msys2-runtime
+  license: LGPL-3.0-or-later OR GPL-2.0-or-later
+  size: 724887
+  timestamp: 1719981635596
+- kind: conda
+  name: m2-libutil-linux
+  version: 2.35.2.4
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libutil-linux-2.35.2.4-hd8ed1ab_4.conda
+  sha256: a25154eb3c4d4c911b2d401ea1edcc27ebab29423912689293278334d2c887c1
+  md5: 0b1257ccbbd526c9d56bd16dc1f868c3
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gcc-libs
+  - m2-libintl
+  - m2-msys2-runtime
+  license: GPL3
+  size: 290687
+  timestamp: 1719982453703
+- kind: conda
+  name: m2-libxcrypt
+  version: 4.4.36.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libxcrypt-4.4.36.1-hd8ed1ab_4.conda
+  sha256: 3bba99133e838da4986c82cefd1b298275d62a8e7de28fc25909629982815a90
+  md5: 162085a7afb20301722ac1ebae563f75
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-msys2-runtime
+  license: LGPL-2.1-or-later
+  size: 112323
+  timestamp: 1719980433080
+- kind: conda
+  name: m2-libxml2
+  version: 2.9.14.5
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libxml2-2.9.14.5-hd8ed1ab_4.conda
+  sha256: f0876a9109a4f6eff8d9ba464266fb61b9299dc5ad8a34bbcd762ac697aef10a
+  md5: 272145448b579fbb00bbfb80ad17e490
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-coreutils
+  - m2-liblzma
+  - m2-libreadline
+  - m2-msys2-runtime
+  - m2-ncurses
+  - m2-zlib
+  license: MIT
+  license_family: MIT
+  size: 581554
+  timestamp: 1719983361075
+- kind: conda
+  name: m2-libxslt
+  version: 1.1.38.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libxslt-1.1.38.1-hd8ed1ab_4.conda
+  sha256: 52ce758c064548f369f45033b2ec355a20b01385ed4174aec4ad6da774934653
+  md5: 2d86ef6a3536f0a9cf09e01ccbe87c45
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-libgcrypt
+  - m2-libxml2
+  - m2-msys2-runtime
+  license: custom
+  size: 175036
+  timestamp: 1719984103259
+- kind: conda
+  name: m2-libzstd
+  version: 1.5.5.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-libzstd-1.5.5.1-hd8ed1ab_4.conda
+  sha256: 98716894e920de6ddb29f5a9d53cf34ef862a4a10b7efc9dfdb885bd3d17f623
+  md5: 97ed12eb99cb45382c548f44507d6efc
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gcc-libs
+  - m2-msys2-runtime
+  license: BSD
+  size: 418259
+  timestamp: 1719981063695
+- kind: conda
+  name: m2-mintty
+  version: 1!3.6.5.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-mintty-1!3.6.5.1-hd8ed1ab_4.conda
+  sha256: d7232c425a82dc1f08617fe54d2092d7ca961e0f6acb4adec46147800169bcdf
+  md5: f0419804539b4e643c4b5aefe1bbb8b3
+  depends:
+  - m2-bash
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-msys2-runtime
+  license: GPL-3.0-or-later
+  license_family: GPL
+  size: 887028
+  timestamp: 1719981697859
+- kind: conda
+  name: m2-mpfr
+  version: 4.2.1.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-mpfr-4.2.1.1-hd8ed1ab_4.conda
+  sha256: 5bd01724d2fcc36379acd2e0b3f438110caa69a42a5540b375654457f90a14bb
+  md5: 30dd2ec486e5bec9b8fe986a07448b53
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gmp >=5.0
+  - m2-msys2-runtime
+  license: LGPL-3.0-or-later
+  license_family: LGPL
+  size: 423188
+  timestamp: 1719981094038
+- kind: conda
+  name: m2-msys2-keyring
+  version: 1!20230703.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-msys2-keyring-1!20230703.1-hd8ed1ab_4.conda
+  sha256: 14f136891fddc06966efb2854a7b522a9e68297d0b5e30faa97518e49314922a
+  md5: 06322a1218725c2c886768ae55c82681
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-msys2-runtime
+  license: GPL
+  size: 75213
+  timestamp: 1719980457606
+- kind: conda
+  name: m2-msys2-launcher
+  version: 1.5.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-msys2-launcher-1.5.1-hd8ed1ab_4.conda
+  sha256: 6c8ea76d1c3497ee4cafe66e64360b7f1f754e233f560374152821a20c8e857d
+  md5: 797a53e729d433e113bb0590d9a9a4ac
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-mintty >=1!2.2.1
+  - m2-msys2-runtime
+  license: MIT
+  license_family: MIT
+  size: 141765
+  timestamp: 1719982516169
+- kind: conda
+  name: m2-msys2-runtime
+  version: 3.4.9.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-msys2-runtime-3.4.9.1-hd8ed1ab_4.conda
+  sha256: e505bf056171089c761b600d21dee062ad1c962b892ca8a7bc852211e3fd3273
+  md5: 77d17c947f9014b2b97a267c5e95cbf2
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  license: GPL
+  size: 1918370
+  timestamp: 1719980096293
+- kind: conda
+  name: m2-nano
+  version: 7.2.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-nano-7.2.1-hd8ed1ab_4.conda
+  sha256: 12226a3db6fd64febb3c00feb61a5c5219ef6ecfc0df554717652d95ca7542a7
+  md5: 1c46579e8679e3fa4a85f108cd1293a5
+  depends:
+  - m2-bash
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-file
+  - m2-libintl
+  - m2-msys2-runtime
+  - m2-ncurses
+  license: GPL-3.0-or-later
+  license_family: GPL
+  size: 676002
+  timestamp: 1719984159515
+- kind: conda
+  name: m2-ncurses
+  version: 6.4.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-ncurses-6.4.1-hd8ed1ab_4.conda
+  sha256: b0411fdfb34fa196445b32f42e46013cb289f8a446760dc8a5acdf3bce095f2d
+  md5: 2a873de098643c58ad7354198065534d
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gcc-libs
+  - m2-msys2-runtime
+  license: MIT
+  license_family: MIT
+  size: 1421045
+  timestamp: 1719981139198
+- kind: conda
+  name: m2-nettle
+  version: 3.9.1.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-nettle-3.9.1.1-hd8ed1ab_4.conda
+  sha256: 1eca10294457b5b82b9a0bcb3fc3b6bd7981a1428fdb162ad01dd0ee5efa5470
+  md5: c798e429cbfb9d8edf2f28e80421aff6
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-libnettle
+  - m2-msys2-runtime
+  license: GPL-2.0-or-later OR LGPL-3.0-or-later
+  size: 132245
+  timestamp: 1719982546411
+- kind: conda
+  name: m2-openssl
+  version: 3.1.2.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-openssl-3.1.2.1-hd8ed1ab_4.conda
+  sha256: e2e87b4c4b6061103e258025a137710e5cb16519476b6bec02f907c86cc4dd24
+  md5: 6af94e803da7c9f0cf90f82fef849466
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-libopenssl
+  - m2-msys2-runtime
+  license: Apache-2.0
+  license_family: APACHE
+  size: 712800
+  timestamp: 1719981182857
+- kind: conda
+  name: m2-p11-kit
+  version: 0.25.0.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-p11-kit-0.25.0.1-hd8ed1ab_4.conda
+  sha256: 6a839cee1536f6280cd971347856ecbb46e3ce8faa06ac5f41cf6cbfd7c5b905
+  md5: 1b88609c71411af6c899c2b777bc1562
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-libp11-kit
+  - m2-msys2-runtime
+  license: BSD
+  size: 480653
+  timestamp: 1719985378634
+- kind: conda
+  name: m2-pinentry
+  version: 1.2.1.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-pinentry-1.2.1.1-hd8ed1ab_4.conda
+  sha256: 076982ca19005ca5f8cb1dccee8985c7fb50cba49eb04632b590d82acd4e3b6e
+  md5: 20c616a6d0bf1a2af27ff1d876413733
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-libassuan
+  - m2-libgpg-error
+  - m2-msys2-runtime
+  - m2-ncurses
+  license: GPL
+  size: 82383
+  timestamp: 1719983569360
+- kind: conda
+  name: m2-rebase
+  version: 4.5.0.4
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-rebase-4.5.0.4-hd8ed1ab_4.conda
+  sha256: db6ec5180dd871fbb8f7ee1ad2a5e0fcb8b0befe8140b727aad23dfcec9d6a4f
+  md5: b2876fcec6f74bd01121f86627817895
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-dash
+  - m2-msys2-runtime
+  license: custom
+  size: 302175
+  timestamp: 1719983601522
+- kind: conda
+  name: m2-sed
+  version: 4.9.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-sed-4.9.1-hd8ed1ab_4.conda
+  sha256: 9c133530cb1640f0b8071c8925593db9567ba41db58d07de96535419a58d69a2
+  md5: 70488b35bb5decb24ba13bf079b328aa
+  depends:
+  - m2-bash
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-libintl
+  - m2-msys2-runtime
+  license: GPL3
+  size: 282006
+  timestamp: 1719982632066
+- kind: conda
+  name: m2-tar
+  version: 1.34.3
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-tar-1.34.3-hd8ed1ab_4.conda
+  sha256: 826114eea4994f5dff90cf6bfdeb3b450d1275ad776fd155890371d7d3d6ce82
+  md5: 9e1341540b7439824ff36c8a41361f17
+  depends:
+  - m2-bash
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-libiconv
+  - m2-libintl
+  - m2-msys2-runtime
+  license: GPL3
+  size: 850045
+  timestamp: 1719982663260
+- kind: conda
+  name: m2-time
+  version: 1.9.3
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-time-1.9.3-hd8ed1ab_4.conda
+  sha256: 48973362e41d27e788aab6aebdd1d91567e12c957059bd503bb3894dde18e327
+  md5: c6db476f3caa1492f38c372bd211dc79
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-msys2-runtime
+  license: GPL
+  size: 57872
+  timestamp: 1719980516695
+- kind: conda
+  name: m2-tzcode
+  version: 2023c.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-tzcode-2023c.1-hd8ed1ab_4.conda
+  sha256: 07aa73801be197acd21c250f718de607f1af259cdaf4fdd018e7ed31c644639e
+  md5: f3f83a374d5ec64102a2f18d7870bdfc
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-coreutils
+  - m2-gawk
+  - m2-msys2-runtime
+  - m2-sed
+  license: GPL
+  size: 290821
+  timestamp: 1719983142652
+- kind: conda
+  name: m2-util-linux
+  version: 2.35.2.4
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-util-linux-2.35.2.4-hd8ed1ab_4.conda
+  sha256: 45ccb7548fad1449ad56466f7727069fe9a0f953f4dce2d01cf139a86231dbed
+  md5: 6da84a247ee90156f4362d60a41b4009
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-coreutils
+  - m2-libiconv
+  - m2-libutil-linux
+  - m2-msys2-runtime
+  license: GPL3
+  size: 1726945
+  timestamp: 1719983182333
+- kind: conda
+  name: m2-wget
+  version: 1.21.4.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-wget-1.21.4.1-hd8ed1ab_4.conda
+  sha256: bd3438082dc89a8e4da41c15bed46b80f40546312f9ff2724d572ddf1a898fc4
+  md5: cd8daf12d67345b0cdabfd8408fe00a5
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gcc-libs
+  - m2-libgnutls
+  - m2-libgpgme
+  - m2-libiconv
+  - m2-libidn2
+  - m2-libintl
+  - m2-libpcre2_8
+  - m2-libpsl
+  - m2-libutil-linux
+  - m2-msys2-runtime
+  - m2-zlib
+  license: GPL3
+  size: 806909
+  timestamp: 1719986673148
+- kind: conda
+  name: m2-which
+  version: 2.21.4
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-which-2.21.4-hd8ed1ab_4.conda
+  sha256: 7f79c881e0cd068ecd653d28a9e2fa42fbdf52e3f6160e25c363842b41a56c21
+  md5: d6c8b6d5d8ddd2d1a707cb0b54826f6b
+  depends:
+  - m2-bash
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-msys2-runtime
+  license: GPL3
+  size: 53331
+  timestamp: 1719981859141
+- kind: conda
+  name: m2-zlib
+  version: 1.3.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-zlib-1.3.1-hd8ed1ab_4.conda
+  sha256: 070fda848e750b96e3b36760b05fbae9399a715bde3f7ad25f997c61efe927fa
+  md5: df626d00c76ae25596cd116619a69863
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gcc-libs
+  - m2-msys2-runtime
+  license: custom
+  size: 82429
+  timestamp: 1719981213117
+- kind: conda
+  name: m2-zstd
+  version: 1.5.5.1
+  build: hd8ed1ab_4
+  build_number: 4
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2-zstd-1.5.5.1-hd8ed1ab_4.conda
+  sha256: 4d2f801ab8c8242733c168d9f20d887a2975d65f8d4afee4e73f327852be4bbe
+  md5: 387f3e0b6109d18ed19fdc0180dab7ca
+  depends:
+  - m2-conda-epoch 20230914 *_x86_64
+  - m2-conda-epoch 20230914.*
+  - m2-gcc-libs
+  - m2-libzstd
+  - m2-msys2-runtime
+  license: BSD
+  size: 119088
+  timestamp: 1719981919396
+- kind: conda
+  name: m2w64-sysroot_win-64
+  version: 12.0.0.r4.gg4f2fc60ca
+  build: h7428d3b_8
+  build_number: 8
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/m2w64-sysroot_win-64-12.0.0.r4.gg4f2fc60ca-h7428d3b_8.conda
+  sha256: be7b7225801dcfced3b392d7467def5a922a20c3ea6aee6392cd8a9fbe0cd55d
+  md5: abb498b76b998a690eed73fc7ad9ab0f
+  depends:
+  - __win
+  - mingw-w64-ucrt-x86_64-crt-git 12.0.0.r4.gg4f2fc60ca h7428d3b_8
+  - mingw-w64-ucrt-x86_64-headers-git 12.0.0.r4.gg4f2fc60ca h7428d3b_8
+  - mingw-w64-ucrt-x86_64-windows-default-manifest
+  - mingw-w64-ucrt-x86_64-winpthreads-git 12.0.0.r4.gg4f2fc60ca h7428d3b_8
+  - ucrt
+  size: 8203
+  timestamp: 1724681698135
+- kind: conda
+  name: make
+  version: 4.4.1
+  build: h0e40799_2
+  build_number: 2
+  subdir: win-64
+  url: https://conda.anaconda.org/conda-forge/win-64/make-4.4.1-h0e40799_2.conda
+  sha256: a810cdca3d5fa50d562cda23c0c1195b45ff5f9b0c41e0d4c8c2dd3c043ff4f2
+  md5: 77ff648ad9fec660f261aa8ab0949f62
+  depends:
+  - libgcc >=13
+  - libwinpthread >=12.0.0.r4.gg4f2fc60ca
+  - ucrt >=10.0.20348.0
+  license: GPL-3.0-or-later
+  license_family: GPL
+  size: 2176937
+  timestamp: 1727802346950
+- kind: conda
+  name: mingw-w64-ucrt-x86_64-crt-git
+  version: 12.0.0.r4.gg4f2fc60ca
+  build: h7428d3b_8
+  build_number: 8
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/mingw-w64-ucrt-x86_64-crt-git-12.0.0.r4.gg4f2fc60ca-h7428d3b_8.conda
+  sha256: 7360086ecfe7abcf8652e3651034d0412bfa7516075cf99c2a93acfa3f529aea
+  md5: b45f73d89ffe78d85427cb07990d9e60
+  depends:
+  - __win
+  - mingw-w64-ucrt-x86_64-headers-git 12.0.0.r4.gg4f2fc60ca h7428d3b_8
+  constrains:
+  - mingw-w64-ucrt-x86_64-winpthreads-git 12.0.0.r4.gg4f2fc60ca.*
+  license: ZPL-2.1
+  size: 5451969
+  timestamp: 1724681567258
+- kind: conda
+  name: mingw-w64-ucrt-x86_64-headers-git
+  version: 12.0.0.r4.gg4f2fc60ca
+  build: h7428d3b_8
+  build_number: 8
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/mingw-w64-ucrt-x86_64-headers-git-12.0.0.r4.gg4f2fc60ca-h7428d3b_8.conda
+  sha256: 803d63ec92cd03d6fd64ad26ec3418ab213f7c847c651fcc34185ff7da5b9a2f
+  md5: 37b0867a81f23c8a322bdc385be1a30e
+  depends:
+  - __win
+  constrains:
+  - mingw-w64-ucrt-x86_64-winpthreads-git 12.0.0.r4.gg4f2fc60ca.*
+  - mingw-w64-ucrt-x86_64-crt-git 12.0.0.r4.gg4f2fc60ca.*
+  license: ZPL-2.1 AND LGPL-2.1-or-later
+  size: 7028955
+  timestamp: 1724681502085
+- kind: conda
+  name: mingw-w64-ucrt-x86_64-windows-default-manifest
+  version: '6.4'
+  build: he206cdd_7
+  build_number: 7
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/mingw-w64-ucrt-x86_64-windows-default-manifest-6.4-he206cdd_7.conda
+  sha256: 5b0df4e0ba8487ffd59f60c34c5dbb9e001ecd2c5d2c66ba88eada40bfa3ecb8
+  md5: 1d6b5c96d7e3cce773519d7d1a4482f0
+  depends:
+  - __win
+  constrains:
+  - m2w64-sysroot_win-64 >=12.0.0.r0
+  license: FSFAP
+  size: 7412
+  timestamp: 1717486007140
+- kind: conda
+  name: mingw-w64-ucrt-x86_64-winpthreads-git
+  version: 12.0.0.r4.gg4f2fc60ca
+  build: h7428d3b_8
+  build_number: 8
+  subdir: noarch
+  noarch: generic
+  url: https://conda.anaconda.org/conda-forge/noarch/mingw-w64-ucrt-x86_64-winpthreads-git-12.0.0.r4.gg4f2fc60ca-h7428d3b_8.conda
+  sha256: 96cbf6e83c8997bcdce4d340f1bce9292c88a349ec4cf1b7630b9ed3e26f3938
+  md5: 05b5ea3dfdfb8459731ffaf8ffb017a4
+  depends:
+  - __win
+  - mingw-w64-ucrt-x86_64-headers-git 12.0.0.r4.gg4f2fc60ca h7428d3b_8
+  constrains:
+  - mingw-w64-ucrt-x86_64-crt-git 12.0.0.r4.gg4f2fc60ca.*
+  license: MIT AND BSD-3-Clause-Clear
+  size: 123222
+  timestamp: 1724681676846
+- kind: conda
+  name: perl
+  version: 5.32.1.1
+  build: 7_h57928b3_strawberry
+  build_number: 7
+  subdir: win-64
+  url: https://conda.anaconda.org/conda-forge/win-64/perl-5.32.1.1-7_h57928b3_strawberry.conda
+  sha256: 9e8ab3e0a3a264e68c6a36897b6fdcdb5d32d30b22f238f23a89ab670f1e6612
+  md5: 07cdf8cf0276211b079a5d57d7853dc4
+  license: GPL-1.0-or-later OR Artistic-1.0-Perl
+  size: 28889712
+  timestamp: 1703310809518
+- kind: conda
+  name: ucrt
+  version: 10.0.22621.0
+  build: h57928b3_1
+  build_number: 1
+  subdir: win-64
+  url: https://conda.anaconda.org/conda-forge/win-64/ucrt-10.0.22621.0-h57928b3_1.conda
+  sha256: db8dead3dd30fb1a032737554ce91e2819b43496a0db09927edf01c32b577450
+  md5: 6797b005cd0f439c4c5c9ac565783700
+  constrains:
+  - vs2015_runtime >=14.29.30037
+  license: LicenseRef-MicrosoftWindowsSDK10
+  size: 559710
+  timestamp: 1728377334097
